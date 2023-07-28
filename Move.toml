@@ -1,0 +1,15 @@
+[package]
+name = 'CoinFactory'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { local = "../../../aptos-core/aptos-move/framework/aptos-framework" }
+MoveStdlib = { local = "../../../aptos-core/aptos-move/framework/move-stdlib" }
+AptosToken = { local = "../../../aptos-core/aptos-move/framework/aptos-token" }
+
+[addresses]
+coin_factory = "0xd0f118c50d63c7bd9046e28f2b3fb885bde552521a4d11b90f3b6c0df11c243c" #new
+# coin_factory = "0x2d66c9bf7713a8f68f5f698695ad6f1d6b74a401678f97f98ab030e03a6128ac"
+fee_collector = "0xd64809bd20c765ccd227abc0647589cd6bdfb9e40726ea3e5a8eaafbd995efcc"
+
+coin_maker = "a7e7eb1e958410b576b55e202243928941716de0c141c645c51db387e7229808"
